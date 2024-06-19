@@ -37,10 +37,6 @@ void setup() {
 
 void loop() {
 
- 
-
-
-  
   // Sweep the servos from min to max position
   for (int dutyCycle = minDutyCycle; dutyCycle <= maxDutyCycle; dutyCycle++) {
     ledcWrite(servoChannel1, dutyCycle);
