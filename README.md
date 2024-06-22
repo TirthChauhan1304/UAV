@@ -1,26 +1,33 @@
 Welcome to the UAV Project repository! This project focuses on the development and testing of a fixed-wing, single-propeller Unmanned Aerial Vehicle (UAV). The repository contains firmware for the flight controller, test files for telemetry, a prototype ground station app, and MATLAB scripts for UAV modeling and joystick testing. Below is an overview of the repository contents and instructions for getting started.
 
-Repository Contents
+Repository Contents:
 
 Firmware for Flight Controller: This directory contains the firmware files necessary to run the flight controller on the UAV. The firmware is responsible for controlling the UAV's flight dynamics and ensuring stable flight.
 
-Telemetry Test Files: These files are used to test the telemetry system of the UAV. The telemetry system is crucial for transmitting flight data from the UAV to the ground station.
+Telemetry Test Files: 
+
+These files are used to test the telemetry system of the UAV. The telemetry system is crucial for transmitting flight data from the UAV to the ground station.
 
 Prototype Ground Station App: Developed using MATLAB App Designer, this app is still under construction. It serves as the interface for monitoring and controlling the UAV during flight. This directory includes the app files and the current development progress.
 
-MATLAB Scripts for UAV Model: This set of scripts is used for modeling the UAV. It includes simulations of the UAV's flight dynamics and performance analysis.
+MATLAB Scripts for UAV Model: 
 
-Joystick Testing Scripts: These MATLAB scripts are used to test joystick inputs for controlling the UAV. The scripts help in configuring and calibrating the joystick for precise control.
+This set of scripts is used for modeling the UAV. It includes simulations of the UAV's flight dynamics and performance analysis.
 
-Getting Started
+Joystick Testing Scripts: 
+
+These MATLAB scripts are used to test joystick inputs for controlling the UAV. The scripts help in configuring and calibrating the joystick for precise control.
+
+Getting Started:
 
 Prerequisites
+
 MATLAB with App Designer
 A compatible flight controller hardware
 A joystick for testing
 Basic knowledge of UAV systems and MATLAB
 
-Installation
+Installation:
 
 Set Up the Flight Controller:
 
