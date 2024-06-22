@@ -13,11 +13,13 @@ MATLAB Scripts for UAV Model: This set of scripts is used for modeling the UAV. 
 Joystick Testing Scripts: These MATLAB scripts are used to test joystick inputs for controlling the UAV. The scripts help in configuring and calibrating the joystick for precise control.
 
 Getting Started
+
 Prerequisites
 MATLAB with App Designer
 A compatible flight controller hardware
 A joystick for testing
 Basic knowledge of UAV systems and MATLAB
+
 Installation
 
 Set Up the Flight Controller:
@@ -45,8 +47,10 @@ Connect your joystick to your computer.
 Navigate to the joystick_testing directory.
 Run the MATLAB scripts to test and calibrate the joystick inputs.
 
-Usage
+Usage:
 Use the ground station app to monitor and control the UAV during flight. The app provides a user-friendly interface for real-time telemetry data and control inputs.
 Utilize the UAV model scripts to simulate and analyze flight performance before actual flights.
 Employ the joystick testing scripts to ensure your joystick is accurately calibrated for controlling the UAV.
 
+License:
+This project is licensed under the MIT License - see the LICENSE file for details.
