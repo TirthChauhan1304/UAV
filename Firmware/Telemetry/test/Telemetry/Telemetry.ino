@@ -10,8 +10,8 @@ const int headingpin = A5;
 
 void setup() {
   
-  // Initialize serial communication at 9600 baud
-  Serial.begin(9600);
+  // Initialize serial communication at 115200 baud
+  Serial.begin(115200);
   
 }
 
@@ -43,5 +43,5 @@ void loop() {
   Serial.println("45.7"); 
   
   // Delay for some time
-  delay(20);  // Adjust delay as needed
+  delay(100);  // Adjust delay as needed
 }
